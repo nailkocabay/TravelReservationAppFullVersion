@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox>
+         <children>
+            <Pane id="root1" prefHeight="100.0" prefWidth="600.0" style="-fx-background-color: #BECFDA;" stylesheets="@mainstill.css">
+               <children>
+                  <Label fx:id="titleLabel" layoutX="259.0" layoutY="33.0" text="Bişeyler">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="backButton" layoutX="456.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" text="Geri">
+                     <effect>
+                        <InnerShadow>
+                           <color>
+                              <Color green="0.6117647290229797" blue="0.9960784316062927" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                  </Button>
+                  <Button fx:id="forwardButton" layoutX="529.0" layoutY="14.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="50.0" text="İleri">
+                     <effect>
+                        <InnerShadow>
+                           <color>
+                              <Color green="0.6117647290229797" blue="0.9960784316062927" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                  </Button>
+               </children>
+            </Pane>
+            <Pane prefHeight="300.0" prefWidth="600.0">
+               <children>
+                  <Label fx:id="travelPackName" layoutX="245.0" layoutY="20.0" text="Paket İsmi">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="travelPackPrice" layoutX="450.0" layoutY="25.0" text="Fiyat:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label id="travelPackLocations" fx:id="travelPackLocations" layoutX="40.0" layoutY="150.0" prefHeight="27.0" prefWidth="325.0" text="Mekanlar:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label id="travelPackActivities" fx:id="travelPackActivities" layoutX="40.0" layoutY="230.0" prefWidth="325.0" text="Aktiviteler:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="addToCartButton" layoutX="509.0" layoutY="261.0" mnemonicParsing="false" text="Sepete Ekle">
+                     <effect>
+                        <InnerShadow>
+                           <color>
+                              <Color green="0.6117647290229797" blue="0.9960784316062927" />
+                           </color>
+                        </InnerShadow>
+                     </effect>
+                  </Button>
+                  <Label fx:id="cityName" layoutX="40.0" layoutY="25.0" prefHeight="25.0" prefWidth="110.0" text="Şehir İsmi:">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="travelPackDescription" layoutX="40.0" layoutY="85.0" prefHeight="35.0" prefWidth="500.0" text="Pack Details">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+   </children>
+</HBox>

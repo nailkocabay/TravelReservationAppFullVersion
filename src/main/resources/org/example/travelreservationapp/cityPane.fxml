@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane id="root1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="150.0" prefWidth="600.0" style="-fx-background-size: fill;" stylesheets="@mainstill.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.travelreservationapp.MainController">
+    <children>
+      <Label fx:id="cityName" layoutX="20.0" layoutY="10.0" prefHeight="30.0" prefWidth="200.0" text="City Name">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Label fx:id="cityDate" layoutX="20.0" layoutY="50.0" prefHeight="30.0" prefWidth="200.0" text="Date">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="cityTime" layoutX="20.0" layoutY="80.0" prefHeight="30.0" prefWidth="200.0" text="Time">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label fx:id="cityDescription" layoutX="20.0" layoutY="110.0" prefHeight="30.0" prefWidth="200.0" text="Description">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <RadioButton fx:id="travelPack1Name" layoutX="250.0" layoutY="30.0" mnemonicParsing="false" />
+      <RadioButton fx:id="travelPack2Name" layoutX="350.0" layoutY="30.0" mnemonicParsing="false" text="Travel Pack2" />
+      <RadioButton fx:id="travelPack3Name" layoutX="250.0" layoutY="90.0" mnemonicParsing="false" text="Travel Pack3" />
+      <RadioButton fx:id="travelPack4Name" layoutX="350.0" layoutY="90.0" mnemonicParsing="false" text="Travel Pack4" />
+      <Label fx:id="travelPack1Price" alignment="CENTER" layoutX="250.0" layoutY="60.0" prefHeight="20.0" prefWidth="100.0" text="Price" />
+      <Label fx:id="travelPack2Price" alignment="CENTER" layoutX="350.0" layoutY="60.0" prefHeight="20.0" prefWidth="100.0" text="Price" />
+      <Label fx:id="travelPack3Price" alignment="CENTER" layoutX="250.0" layoutY="120.0" prefHeight="20.0" prefWidth="100.0" text="Price" />
+      <Label fx:id="travelPack4Price" alignment="CENTER" layoutX="350.0" layoutY="120.0" prefHeight="20.0" prefWidth="100.0" text="Price" />
+      <Label fx:id="cityPrice" alignment="CENTER" layoutX="450.0" layoutY="30.0" prefHeight="20.0" prefWidth="100.0" text="Total Price" />
+      <Button fx:id="addToCartButton" layoutX="450.0" layoutY="90.0" mnemonicParsing="false" prefHeight="20.0" prefWidth="100.0" text="Add To Cart" />
+      <Label layoutX="270.0" layoutY="30.0" prefHeight="20.0" prefWidth="100.0" text="Label" />
+    </children>
+</Pane>
